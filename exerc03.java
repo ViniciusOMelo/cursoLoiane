@@ -7,6 +7,16 @@ public class exerc03 {
         System.out.println("Digite o seu sexo: (F ou M)");
         sexo = scanner.nextLine();
 
+        //Utilizando o metodo .equals() para comparar Strings
+        if (sexo.equalsIgnoreCase("f")) {
+            System.out.println("F - Femenino");
+        }else if (sexo.equalsIgnoreCase("m")) {
+            System.out.println("M - Masculino");
+        }else {
+            System.out.println("Sexo inválido!");
+        }
+
+        /*
         switch (sexo) {
             case "F":
                 System.out.println("F - Femenino");
@@ -18,6 +28,7 @@ public class exerc03 {
                 System.out.println("Sexo inválido.");
                 break;
         }
+        */
         scanner.close();
     }
 }

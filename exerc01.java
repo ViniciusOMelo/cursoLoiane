@@ -7,6 +7,7 @@ public class exerc01 {
 
         System.out.println("Insira um números:");
         n1 = scanner.nextInt();
+        
         System.out.println("Insira outro número:");
         n2 = scanner.nextInt();
 

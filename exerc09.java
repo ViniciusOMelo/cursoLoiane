@@ -32,7 +32,7 @@ public class exerc09 {
             System.out.println(n3 + " " + n2 + " " + " " + n1);
         }
         else {
-            System.out.println("O números são iguais " + n1 + n2 + n3);
+            System.out.println("Os números são iguais " + n1 + n2 + n3);
         }
         scanner.close();
     }
