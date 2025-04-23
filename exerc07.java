@@ -12,11 +12,11 @@ public class exerc07 {
         n3 = scanner.nextInt();
 
        
-        if (n1 < n2 & n1 < n3) {
+        if (n1 < n2 && n1 < n3) {
             System.out.println("O menor número é o " + n1);
-        } else if (n2 < n1 & n2 < n3) {
+        } else if (n2 < n1 && n2 < n3) {
             System.out.println("O menor número é o " + n2);
-        } else if (n3 < n1 & n3 < n2) {
+        } else if (n3 < n1 && n3 < n2) {
             System.out.println("O menor número é o " + n3);
         }else {
             System.out.println("Os números são iguais.");

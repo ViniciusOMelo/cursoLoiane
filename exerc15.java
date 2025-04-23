@@ -11,13 +11,13 @@ public class exerc15 {
         lado2 = scanner.nextDouble();
         lado3 = scanner.nextDouble();
 
-        if ((lado1 + lado2) > lado3 || (lado2 + lado3) > lado1 || (lado3 + lado1) > lado2) {
+        if ((lado1 + lado2) > lado3 && (lado2 + lado3) > lado1) {
             System.out.println("É um triângulo");
-            if (lado1 == lado2 & lado1 == lado3) {
+            if (lado1 == lado2 && lado1 == lado3) {
                 System.out.println("Equilátero");
             } else if (lado1 == lado2 || lado2 == lado3 || lado3 == lado1) {
                 System.out.println("Isoceles");
-            } else if (lado1 != lado2 & lado1 != lado3 & lado3 != lado2) {
+            } else if (lado1 != lado2 && lado1 != lado3 && lado3 != lado2) {
                 System.out.println("Escaleno");
             }
 
